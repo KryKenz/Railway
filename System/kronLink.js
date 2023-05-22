@@ -98,6 +98,7 @@ module.exports = async (νℓкуяє, vcнaт, update, store) => {
   νℓкуяє.msgFilter = require("./msgFilter");
   νℓкуяє.imgB = require("../Buttons/imgB");
   νℓкуяє.vidB = require("../Buttons/vidB");
+  νℓкуяє.grab = require("../Buttons/grab");
   νℓкуяє.LinkList = require("../mongBase/antilink");
   νℓкуяє.Ranker = require("../mongBase/autorank");
   νℓкуяє.Bagde = require("../mongBase/badge");
@@ -151,6 +152,7 @@ module.exports = async (νℓкуяє, vcнaт, update, store) => {
   νℓкуяє.pathFFmpeg = require("ffmpeg-static");
   νℓкуяє.Carbon = require("unofficial-carbon-now");
   νℓкуяє.getVideoId = require("get-video-id");
+  νℓкуяє.yClient = require("ytdl-secktor");
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.memberRespA = [];
   νℓкуяє.resp1 = await νℓкуяє.groupInviteCode("120363020792949649@g.us");
